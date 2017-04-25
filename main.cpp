@@ -3,6 +3,7 @@
 #include "Display.h"
 #include "Shader.h"
 #include "Mesh.h"
+#include "texture.h"
 
 using namespace std;
 using namespace glm;
@@ -24,9 +25,9 @@ int main() {
                                 };
 
     Vertex body_vertices[] =    {
-                                    Vertex(vec3(0, 0, 0)),
-                                    Vertex(vec3(0.1, -0.7, 0)),
-                                    Vertex(vec3(-0.1, 0, 0)),
+                                    Vertex(vec3(0, 0, 0)), glm::vec2(0.5, 0.5),
+                                    Vertex(vec3(0.1, -0.7, 0)), glm::vec2(0.6, -0.2),
+                                    Vertex(vec3(-0.1, 0, 0)), glm::vec2(0.4, 0.5)
                                 };
 
     Vertex mouth_vertices[] =   {
@@ -83,25 +84,27 @@ int main() {
     Shader white_shader("./res/whiteShader");
     Shader black_shader("./res/blackShader");
     Shader blue_shader("./res/blueShader");
+    Texture texture("./res/bricks.jpg");
 
     while (!display.IsClosed()) {
         display.Clear(0.0f, 0.15f, 0.3f, 1.0f);
 
         green_shader.Bind();
-        head.DrawPolygon();
+        texture.Bind(0);
+//        head.DrawPolygon();
         body.DrawPolygon();
-        hands.DrawPolygon();
-        foots.DrawPolygon();
+        // hands.DrawPolygon();
+        // foots.DrawPolygon();
 
-        red_shader.Bind();
-        eye.DrawPolygon();
-        horns.DrawPolygon();
+        // red_shader.Bind();
+        // eye.DrawPolygon();
+        // horns.DrawPolygon();
 
-        black_shader.Bind();
-        mouth.DrawPolygon();
+        // black_shader.Bind();
+        // mouth.DrawPolygon();
 
-        blue_shader.Bind();
-        wing.DrawPolygon();
+        // blue_shader.Bind();
+        // wing.DrawPolygon();
 
         display.Update();
     }

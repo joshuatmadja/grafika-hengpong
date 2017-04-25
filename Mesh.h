@@ -10,11 +10,19 @@ using namespace glm;
 
 class Vertex {
     public:
-        Vertex(const vec3& pos) { this->pos = pos; }
+        Vertex(const vec3& pos, const glm::vec2 texCoord)
+        {
+            this->pos = pos;
+            this->texCoord = texCoord;
+        }
+        inline glm::vec3* getPos() { return &pos; }
+        inline glm::vec3 getTexCoord() { return &texCoord; }
+        
     protected:
 
     private:
         vec3 pos;
+        vec2 texCoord;
 };
 
 class Mesh {
@@ -31,7 +39,7 @@ class Mesh {
 
         enum {
             POSITION_V8,
-
+            TEXCOORD_V8,
             NUM_BUFFERS
         };
 
