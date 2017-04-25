@@ -16,8 +16,8 @@ class Vertex {
             this->texCoord = texCoord;
         }
         inline glm::vec3* getPos() { return &pos; }
-        inline glm::vec3 getTexCoord() { return &texCoord; }
-        
+        inline glm::vec2* getTexCoord() { return &texCoord; }
+
     protected:
 
     private:

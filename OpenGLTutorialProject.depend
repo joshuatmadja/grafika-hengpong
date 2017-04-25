@@ -65,3 +65,70 @@
 	"Shader.h"
 	"Mesh.h"
 
+1493104585 source:/home/kamal/Desktop/Grafika-handphone/grafika-hengpong/Display.cpp
+	"Display.h"
+
+1493104585 /home/kamal/Desktop/Grafika-handphone/grafika-hengpong/Display.h
+	<SDL2/SDL.h>
+	<GL/glew.h>
+	<iostream>
+	<string>
+
+1493108904 source:/home/kamal/Desktop/Grafika-handphone/grafika-hengpong/main.cpp
+	<iostream>
+	<GL/glew.h>
+	"Display.h"
+	"Shader.h"
+	"Mesh.h"
+	"Texture.h"
+	"Transform.h"
+
+1493108711 /home/kamal/Desktop/Grafika-handphone/grafika-hengpong/Shader.h
+	<iostream>
+	<fstream>
+	<string>
+	<GL/glew.h>
+	"Transform.h"
+
+1493104663 /home/kamal/Desktop/Grafika-handphone/grafika-hengpong/Mesh.h
+	<glm/glm.hpp>
+	<GL/glew.h>
+	<iostream>
+
+1493104585 /home/kamal/Desktop/Grafika-handphone/grafika-hengpong/texture.h
+	<string>
+	<GL/glew.h>
+
+1493107084 source:/home/kamal/Desktop/Grafika-handphone/grafika-hengpong/Mesh.cpp
+	"Mesh.h"
+	<vector>
+
+1493108619 source:/home/kamal/Desktop/Grafika-handphone/grafika-hengpong/Shader.cpp
+	"Shader.h"
+
+1493104898 /home/kamal/Desktop/Grafika-handphone/grafika-hengpong/Texture.h
+	<string>
+	<GL/glew.h>
+
+1493105359 source:/home/kamal/Desktop/Grafika-handphone/grafika-hengpong/Texture.cpp
+	"Texture.h"
+	"stb_image.h"
+	<iostream>
+
+1493105568 /home/kamal/Desktop/Grafika-handphone/grafika-hengpong/stb_image.h
+	<stdio.h>
+
+1493105473 source:/home/kamal/Desktop/Grafika-handphone/grafika-hengpong/stb_image.c
+	"stb_image.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+
+1493109013 /home/kamal/Desktop/Grafika-handphone/grafika-hengpong/Transform.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+

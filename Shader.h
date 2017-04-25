@@ -5,6 +5,7 @@
 #include <fstream>
 #include <string>
 #include <GL/glew.h>
+#include "Transform.h"
 
 using namespace std;
 
@@ -14,6 +15,7 @@ class Shader {
         virtual ~Shader();
 
         void Bind();
+        void Update(const Transform& transform);
 
     protected:
 
@@ -21,8 +23,14 @@ class Shader {
         static int count_shader;
         static const unsigned int NUM_SHADERS = 2;
 
+        enum {
+            TRANSFORM_U,
+            NUM_UNIFORMS
+        };
+
         GLuint m_program;
         GLuint m_shaders[NUM_SHADERS];
+        GLuint m_uniforms[NUM_UNIFORMS];
 };
 
 #endif // SHADER_H
