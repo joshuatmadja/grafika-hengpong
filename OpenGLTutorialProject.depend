@@ -74,7 +74,7 @@
 	<iostream>
 	<string>
 
-1493108904 source:/home/kamal/Desktop/Grafika-handphone/grafika-hengpong/main.cpp
+1493122659 source:/home/kamal/Desktop/Grafika-handphone/grafika-hengpong/main.cpp
 	<iostream>
 	<GL/glew.h>
 	"Display.h"
@@ -99,7 +99,7 @@
 	<string>
 	<GL/glew.h>
 
-1493107084 source:/home/kamal/Desktop/Grafika-handphone/grafika-hengpong/Mesh.cpp
+1493120088 source:/home/kamal/Desktop/Grafika-handphone/grafika-hengpong/Mesh.cpp
 	"Mesh.h"
 	<vector>
 
@@ -110,7 +110,7 @@
 	<string>
 	<GL/glew.h>
 
-1493105359 source:/home/kamal/Desktop/Grafika-handphone/grafika-hengpong/Texture.cpp
+1493119932 source:/home/kamal/Desktop/Grafika-handphone/grafika-hengpong/Texture.cpp
 	"Texture.h"
 	"stb_image.h"
 	<iostream>
