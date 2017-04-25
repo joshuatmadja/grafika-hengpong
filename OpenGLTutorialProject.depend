@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1491947914 source:/home/kamal/Desktop/OpenGLTutorialProject/Display.cpp
+	"Display.h"
+
+1491947921 /home/kamal/Desktop/OpenGLTutorialProject/Display.h
+	<SDL2/SDL.h>
+	<GL/glew.h>
+	<iostream>
+	<string>
+
+1491968836 source:/home/kamal/Desktop/OpenGLTutorialProject/main.cpp
+	<iostream>
+	<GL/glew.h>
+	"Display.h"
+	"Shader.h"
+	"Mesh.h"
+
+1491950659 /home/kamal/Desktop/OpenGLTutorialProject/Shader.h
+	<iostream>
+	<fstream>
+	<string>
+	<GL/glew.h>
+
+1491951229 source:/home/kamal/Desktop/OpenGLTutorialProject/Shader.cpp
+	"Shader.h"
+
+1491969337 /home/kamal/Desktop/OpenGLTutorialProject/Mesh.h
+	<glm/glm.hpp>
+	<GL/glew.h>
+	<iostream>
+
+1491969165 source:/home/kamal/Desktop/OpenGLTutorialProject/Mesh.cpp
+	"Mesh.h"
+
+1492524227 source:/home/kamal/Desktop/grafika-naga/Display.cpp
+	"Display.h"
+
+1492524216 /home/kamal/Desktop/grafika-naga/Display.h
+	<SDL2/SDL.h>
+	<GL/glew.h>
+	<iostream>
+	<string>
+
+1492524262 source:/home/kamal/Desktop/grafika-naga/Shader.cpp
+	"Shader.h"
+
+1492524264 /home/kamal/Desktop/grafika-naga/Shader.h
+	<iostream>
+	<fstream>
+	<string>
+	<GL/glew.h>
+
+1492532531 source:/home/kamal/Desktop/grafika-naga/Mesh.cpp
+	"Mesh.h"
+
+1492524371 /home/kamal/Desktop/grafika-naga/Mesh.h
+	<glm/glm.hpp>
+	<GL/glew.h>
+	<iostream>
+
+1492533039 source:/home/kamal/Desktop/grafika-naga/main.cpp
+	<iostream>
+	<GL/glew.h>
+	"Display.h"
+	"Shader.h"
+	"Mesh.h"
+
